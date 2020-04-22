@@ -1,0 +1,171 @@
+.top{
+  width: 900px;
+  display: flex;
+  background: black;
+  color: white;
+  font-size: 35px;
+}
+.top-text{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.top-text-left{
+  margin-left: 110px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.top-text-right {
+  margin-left: 20px;
+  margin-right: 110px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+
+.row {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.left {
+  width: 400px;
+  float: left;
+}
+
+
+.right {
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+  padding-right: 40px;
+}
+
+img {
+  width: 390px;
+  height: 450px;
+  margin-right: 0px;
+  object-fit: cover;
+}
+
+
+h1 {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 1.6
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  line-height: 1.6
+}
+
+h3{
+  font-family: 'Merriweather', serif;
+  text-transform: capitalize;
+  font-style: italic;
+  margin-top: -30px;
+  line-height: 1.6
+}
+
+ul {
+  list-style-type: square;
+  margin-bottom: 50px;
+  line-height: 1.6
+}
+
+li {
+  margin: 8px;
+}
+
+
+.intro { 
+  font-size: 20px;
+  line-height: 1.6
+}
+
+.quote {
+  width: 390px;
+  height: 450px;
+  background: #222222;
+  color: white;
+  font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+  left: 0px;
+  top: -60px;
+}
+
+.quote2 {
+  width: 390px;
+  height: 750px;
+  background: #222222;
+  color: white;
+  font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+  left: 0px;
+  top: -60px;
+}
+.quote-text {
+  position: relative;
+  left: 40px;
+  top: 60px;
+}
+
+.quote-sign {
+  margin-bottom: 0px;
+  position: relative;
+  left: 10px;
+  top: -420px;
+  font-size: 80px;
+}
+
+.quote-sign2 {
+  margin-bottom: 0px;
+  position: relative;
+  left: 10px;
+  top: -745px;
+  font-size: 80px;
+}
+
+.greetings-text{ 
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  margin-bottom: 50px;
+  position: absolute;
+  top: 280px;
+  left: 103px;
+  line-height: 1.0;
+}
+
+body { 
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
+.plain-text {
+  line-height: 1.6;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.zero-distance{
+  margin: 0px;
+}
